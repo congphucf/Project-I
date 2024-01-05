@@ -1,0 +1,39 @@
+{
+  "name": "udemy",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^1.6.2",
+    "bootstrap": "^3.4.1",
+    "file-saver": "^2.0.5",
+    "firebase": "^7.11.0",
+    "react": "^16.13.0",
+    "react-bootstrap": "^2.9.2",
+    "react-dom": "^16.13.0",
+    "react-dropzone": "^14.2.3",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
